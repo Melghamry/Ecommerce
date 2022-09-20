@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 require('dotenv').config()
 
 // Database configuration.
-const connectDB = require('../server side/config/connectDB')
+const connectDB = require('./config/connectDB')
 const app = express();
 // middleware
 app.use(express.json())
